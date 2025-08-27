@@ -104,6 +104,3 @@ Developed using:
 * Tkinter
 * Pillow
 * PyCryptodome
-
-```
-```
