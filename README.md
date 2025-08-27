@@ -26,8 +26,8 @@ This tool supports **drag-and-drop**, has a **Tkinter GUI**, and works best with
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/steganography-tool.git
-   cd steganography-tool
+   git clone https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool.git
+   cd Elevate_Labs_Internship_Project_Steganography_Tool
 ````
 
 2. Install dependencies:
