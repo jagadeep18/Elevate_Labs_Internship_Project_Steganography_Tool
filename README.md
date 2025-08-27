@@ -106,8 +106,4 @@ Developed using:
 * PyCryptodome
 
 ```
-
----
-
-👉 Do you want me to also create a **sample screenshot mockup** (fake GUI preview) that you can add under the **Screenshots** section of your README?
 ```
