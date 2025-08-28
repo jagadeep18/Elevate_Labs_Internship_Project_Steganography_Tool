@@ -38,7 +38,7 @@ python stego_tool.py
 ⚛️ Method 2: Web Tool (React + TypeScript + Vite)
 A modern, interactive web-based steganography tool that runs entirely in the browser with no backend dependency.
 
-🔧 Features:
+###🔧 Features:
 ⚡ Lightning-fast UI built with React + TailwindCSS
 
 🔐 Secure AES-GCM encryption/decryption
@@ -49,9 +49,8 @@ A modern, interactive web-based steganography tool that runs entirely in the bro
 
 🌍 Hosted version for instant access
 
-🚀 Getting Started (Web App)
-bash
-Copy code
+###🚀 Getting Started (Web App)
+
 # Navigate to the web app project
 cd Elevate_Labs_Internship_Project_Steganography_Tool/project
 
@@ -63,10 +62,7 @@ npm run dev
 
 # Build for production
 npm run build
-📁 Project Structure
-bash
-Copy code
-.
+📁 Project Structure.
 ├── python/               # Python GUI version
 │   └── stego_tool.py     # Main Tkinter GUI
 │
@@ -85,32 +81,26 @@ Copy code
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
 
 
-🛠 Dependencies
+###🛠 Dependencies
 ✅ Python Version
 Python 3.x
-
 Pillow
-
 PyCryptodome
-
 Tkinter (built-in)
-
 tkinterdnd2 (optional)
 
-✅ Web Version
+###✅ Web Version
 React + TypeScript + Vite
-
 TailwindCSS
-
 JavaScript (steganography logic)
 
-⚠️ Notes
+###⚠️ Notes
 📌 Use PNG or BMP files only — JPEG may corrupt hidden data.
 
 🔐 AES encryption is optional but highly recommended for privacy.
 
 📂 Drag-and-drop is enabled in both versions (requires tkinterdnd2 in Python).
 
-👨‍💻 Author
+###👨‍💻 Author
 Developed by: Jagadeep Gorantla
 🧑‍💻 Internship Project @ Elevate Labs
