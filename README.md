@@ -80,6 +80,7 @@ npm run build
 # Main Window - 2
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
 
+---
 
 #🛠 Dependencies
 ✅ Python Version
@@ -89,21 +90,24 @@ PyCryptodome
 Tkinter (built-in)
 tkinterdnd2 (optional)
 
+---
+
 #✅ Web Version
+
 React + TypeScript + Vite
 TailwindCSS
 JavaScript (steganography logic)
 
+---
 
-
-#⚠️ Notes
+##⚠️ Notes
 📌 Use PNG or BMP files only — JPEG may corrupt hidden data.
 
 🔐 AES encryption is optional but highly recommended for privacy.
 
 📂 Drag-and-drop is enabled in both versions (requires tkinterdnd2 in Python).
 
-
+---
 
 #👨‍💻 Author
 Developed by: Jagadeep Gorantla
