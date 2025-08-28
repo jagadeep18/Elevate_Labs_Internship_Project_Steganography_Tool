@@ -1,87 +1,72 @@
-🕵️‍♂️ Steganography Tool — Elevate Labs Internship Project
+# 🕵️‍♂️ Steganography Tool — Elevate Labs Internship Project
 
-A dual-approach steganography solution developed during the Elevate Labs Internship. This project includes:
+> 🔐 A dual-approach steganography solution developed as part of the Elevate Labs Internship program.  
+> This project includes both a local Python GUI tool and a modern web version for embedding and extracting files/text from images.
 
-🐍 A Python GUI Tool using Tkinter for embedding files/text into images.
+---
 
-⚛️ A Modern Web Version built with React + TypeScript (hosted online).
+## 🌐 Try the Web Version Online
 
-🌐 Try the Web Version Online
+▶️ Live Demo: [https://advanced-steganograp-f3g1.bolt.host](https://advanced-steganograp-f3g1.bolt.host)
 
-🔗 https://advanced-steganograp-f3g1.bolt.host
+---
 
-📦 Project Overview
-🧩 Method 1: Python GUI Tool
+## 📦 Project Overview
 
-A desktop GUI application for local steganography. Embed and extract text/files from images with optional AES-GCM encryption.
+### 🧩 Method 1: Python GUI Tool
 
-🔧 Features:
+A desktop GUI application built using Python’s Tkinter framework. It provides offline steganography capabilities with optional AES encryption.
 
-🖼️ Supports PNG/BMP (lossless) image formats
+#### 🔧 Features:
+- 🖼️ Support for PNG/BMP (lossless) image formats  
+- 🔒 Optional AES-GCM encryption with passphrase  
+- 📄 Embed and extract text or entire files  
+- 💬 Drag-and-drop support via `tkinterdnd2`  
+- 🎨 Simple, user-friendly GUI with status updates  
 
-🔒 Optional passphrase-based AES encryption
+#### 🚀 Getting Started (Python)
 
-📄 Embed text or entire files
-
-💬 Drag-and-drop support (via tkinterdnd2)
-
-💡 Simple and intuitive Tkinter-based GUI
-
-🚀 Getting Started (Python)
-
-Clone and navigate:
-
+```bash
+# Clone the repository
 git clone https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool.git
 cd Elevate_Labs_Internship_Project_Steganography_Tool/python
 
-
-Install dependencies:
-
+# Install dependencies
 pip install pillow pycryptodome tkinterdnd2
 
-
-Run the app:
-
+# Launch the GUI tool
 python stego_tool.py
-
 ⚛️ Method 2: Web Tool (React + TypeScript + Vite)
-
-A lightweight and interactive steganography web app with drag-and-drop, encryption, and instant previews.
+A modern, interactive web-based steganography tool that runs entirely in the browser with no backend dependency.
 
 🔧 Features:
+⚡ Lightning-fast UI built with React + TailwindCSS
 
-⚡ Fast, responsive UI (React + TailwindCSS)
+🔐 Secure AES-GCM encryption/decryption
 
-🔐 AES-GCM encryption
+📂 Drag-and-drop support for images/files
 
-📂 Drag-and-drop image and file handling
+📤 Extract hidden messages or files right in your browser
 
-📤 Extract hidden content via browser
-
-🌍 Hosted and accessible online
+🌍 Hosted version for instant access
 
 🚀 Getting Started (Web App)
-
-Clone and enter the project folder:
-
+bash
+Copy code
+# Navigate to the web app project
 cd Elevate_Labs_Internship_Project_Steganography_Tool/project
 
-
-Install dependencies:
-
+# Install dependencies
 npm install
 
-
-Start development server:
-
+# Start local development server
 npm run dev
 
-
-Build for production:
-
+# Build for production
 npm run build
-
 📁 Project Structure
+bash
+Copy code
 .
 ├── python/               # Python GUI version
 │   └── stego_tool.py     # Main Tkinter GUI
@@ -100,9 +85,9 @@ npm run build
 ### Main Window - 2
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
 
-🛠 Dependencies
-Python Version
 
+🛠 Dependencies
+✅ Python Version
 Python 3.x
 
 Pillow
@@ -111,25 +96,22 @@ PyCryptodome
 
 Tkinter (built-in)
 
-tkinterdnd2 (optional for drag-and-drop)
+tkinterdnd2 (optional)
 
-Web Version
-
+✅ Web Version
 React + TypeScript + Vite
 
 TailwindCSS
 
-JavaScript (for steganography logic)
+JavaScript (steganography logic)
 
 ⚠️ Notes
+📌 Use PNG or BMP files only — JPEG may corrupt hidden data.
 
-Always use PNG/BMP formats to avoid corruption from image compression.
+🔐 AES encryption is optional but highly recommended for privacy.
 
-Drag-and-drop functionality requires tkinterdnd2 (Python version).
-
-AES encryption is optional but recommended for sensitive data.
+📂 Drag-and-drop is enabled in both versions (requires tkinterdnd2 in Python).
 
 👨‍💻 Author
-
-Developed by Jagadeep Gorantla
-💼 Internship Project @ Elevate Labs
+Developed by: Jagadeep Gorantla
+🧑‍💻 Internship Project @ Elevate Labs
