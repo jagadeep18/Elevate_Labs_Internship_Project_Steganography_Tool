@@ -88,10 +88,8 @@ pip install pillow pycryptodome tkinterdnd2
 ---
 
 ## 📸 Screenshots
-
-### Main GUI
-
-*(Insert a screenshot of your GUI here)*
+Screenshot_1.png
+Screenshot_2.png
 
 
 ---
