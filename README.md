@@ -26,7 +26,6 @@ A desktop GUI application built using Python’s Tkinter framework. It provides 
 
 #### 🚀 Getting Started (Python)
 
-```bash
 # Clone the repository
 git clone https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool.git
 cd Elevate_Labs_Internship_Project_Steganography_Tool/python
