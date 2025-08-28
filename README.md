@@ -17,12 +17,16 @@
 
 A desktop GUI application built using Python’s Tkinter framework. It provides offline steganography capabilities with optional AES encryption.
 
-#### 🔧 Features:
+---
+
+🔧 Features:
 - 🖼️ Support for PNG/BMP (lossless) image formats  
 - 🔒 Optional AES-GCM encryption with passphrase  
 - 📄 Embed and extract text or entire files  
 - 💬 Drag-and-drop support via `tkinterdnd2`  
 - 🎨 Simple, user-friendly GUI with status updates  
+
+------
 
 #### 🚀 Getting Started (Python)
 
@@ -35,8 +39,13 @@ pip install pillow pycryptodome tkinterdnd2
 
 # Launch the GUI tool
 python stego_tool.py
+
+------
+
 ⚛️ Method 2: Web Tool (React + TypeScript + Vite)
 A modern, interactive web-based steganography tool that runs entirely in the browser with no backend dependency.
+
+------
 
 ###🔧 Features:
 ⚡ Lightning-fast UI built with React + TailwindCSS
@@ -49,6 +58,8 @@ A modern, interactive web-based steganography tool that runs entirely in the bro
 
 🌍 Hosted version for instant access
 
+------
+
 ###🚀 Getting Started (Web App)
 
 # Navigate to the web app project
@@ -60,7 +71,9 @@ npm install
 # Start local development server
 npm run dev
 
-# Build for production
+------
+
+### Build for production
 npm run build
 📁 Project Structure.
 ├── python/               # Python GUI version
@@ -72,7 +85,9 @@ npm run build
 │   ├── app.js
 │   └── ...
 
-## 📸 Screenshots
+------
+
+###📸 Screenshots
 
 # Main Window - 1
 ![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_1.png?raw=true)
@@ -80,9 +95,9 @@ npm run build
 # Main Window - 2
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
 
----
+------
 
-#🛠 Dependencies
+###🛠 Dependencies
 ✅ Python Version
 Python 3.x
 Pillow
@@ -90,25 +105,25 @@ PyCryptodome
 Tkinter (built-in)
 tkinterdnd2 (optional)
 
----
+------
 
-#✅ Web Version
+###✅ Web Version
 
 React + TypeScript + Vite
 TailwindCSS
 JavaScript (steganography logic)
 
----
+------
 
-##⚠️ Notes
+###⚠️ Notes
 📌 Use PNG or BMP files only — JPEG may corrupt hidden data.
 
 🔐 AES encryption is optional but highly recommended for privacy.
 
 📂 Drag-and-drop is enabled in both versions (requires tkinterdnd2 in Python).
 
----
+------
 
-#👨‍💻 Author
+###👨‍💻 Author
 Developed by: Jagadeep Gorantla
 🧑‍💻 Internship Project @ Elevate Labs
