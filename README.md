@@ -91,10 +91,10 @@ pip install pillow pycryptodome tkinterdnd2
 
 ## 📸 Screenshots
 
-### Main Window
+### Main Window - 1
 ![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_1.png?raw=true)
 
-### Extraction Example
+### Main Window - 2
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
 
 
