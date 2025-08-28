@@ -99,11 +99,11 @@ npm run build
 
 ###🛠 Dependencies
 ✅ Python Version
-Python 3.x
-Pillow
-PyCryptodome
-Tkinter (built-in)
-tkinterdnd2 (optional)
+> Python 3.x
+> Pillow
+> PyCryptodome
+> Tkinter (built-in)
+> tkinterdnd2 (optional)
 
 ------
 
