@@ -103,8 +103,8 @@ Elevate_Labs_Internship_Project_Steganography_Tool/
 ---
 
 ## 📸 Screenshots
-
-### Main Window (Python GUI)
+### Web Version
+### Main Window
 ![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_1.png?raw=true)
 
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
