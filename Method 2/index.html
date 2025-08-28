@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteganoCrypt - Advanced Image Steganography Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">🔐</div>
+                <h1>SteganoCrypt</h1>
+            </div>
+            <p class="subtitle">Advanced Image Steganography Tool</p>
+        </header>
+
+        <div class="tab-container">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="hide">Hide Data</button>
+                <button class="tab-button" data-tab="extract">Extract Data</button>
+            </div>
+
+            <!-- Hide Data Tab -->
+            <div class="tab-content active" id="hide-tab">
+                <div class="section-card">
+                    <h2>🔒 Hide Secret Data in Image</h2>
+                    
+                    <div class="upload-section">
+                        <div class="upload-area" id="image-upload-area">
+                            <div class="upload-content">
+                                <div class="upload-icon">📁</div>
+                                <p class="upload-text">Drag & drop an image here</p>
+                                <p class="upload-subtext">or click to browse</p>
+                                <p class="supported-formats">Supports: PNG, JPG, JPEG, BMP</p>
+                            </div>
+                            <input type="file" id="image-input" accept="image/*" hidden>
+                        </div>
+                    </div>
+
+                    <div class="data-input-section">
+                        <div class="input-tabs">
+                            <button class="input-tab-button active" data-input-tab="text">Text Message</button>
+                            <button class="input-tab-button" data-input-tab="file">File Upload</button>
+                        </div>
+
+                        <div class="input-tab-content active" id="text-input">
+                            <textarea 
+                                id="secret-text" 
+                                placeholder="Enter your secret message here..."
+                                rows="6"
+                            ></textarea>
+                            <div class="char-counter">
+                                <span id="char-count">0</span> characters
+                            </div>
+                        </div>
+
+                        <div class="input-tab-content" id="file-input">
+                            <div class="file-upload-area" id="file-upload-area">
+                                <div class="upload-content">
+                                    <div class="upload-icon">📄</div>
+                                    <p class="upload-text">Drag & drop a file here</p>
+                                    <p class="upload-subtext">or click to browse</p>
+                                    <p class="file-info" id="file-info"></p>
+                                </div>
+                                <input type="file" id="file-input-element" hidden>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="options-section">
+                        <h3>Security Options</h3>
+                        <div class="option-group">
+                            <label for="password">Password Protection (Optional)</label>
+                            <input 
+                                type="password" 
+                                id="password" 
+                                placeholder="Enter password to encrypt data"
+                            >
+                        </div>
+                        <div class="option-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="compress-data">
+                                <span class="checkmark"></span>
+                                Compress data before hiding
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary" id="hide-btn" disabled>
+                        <span class="btn-icon">🔒</span>
+                        Hide Data in Image
+                    </button>
+                </div>
+
+                <div class="preview-section" id="hide-preview" style="display: none;">
+                    <h3>Preview</h3>
+                    <div class="preview-container">
+                        <div class="preview-item">
+                            <h4>Original Image</h4>
+                            <canvas id="original-canvas"></canvas>
+                            <div class="image-info" id="original-info"></div>
+                        </div>
+                        <div class="preview-arrow">➤</div>
+                        <div class="preview-item">
+                            <h4>Steganographic Image</h4>
+                            <canvas id="stego-canvas"></canvas>
+                            <div class="image-info" id="stego-info"></div>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <button class="btn btn-success" id="download-btn">
+                            <span class="btn-icon">💾</span>
+                            Download Steganographic Image
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extract Data Tab -->
+            <div class="tab-content" id="extract-tab">
+                <div class="section-card">
+                    <h2>🔓 Extract Hidden Data from Image</h2>
+                    
+                    <div class="upload-section">
+                        <div class="upload-area" id="extract-upload-area">
+                            <div class="upload-content">
+                                <div class="upload-icon">🔍</div>
+                                <p class="upload-text">Drag & drop steganographic image here</p>
+                                <p class="upload-subtext">or click to browse</p>
+                                <p class="supported-formats">Supports: PNG, JPG, JPEG, BMP</p>
+                            </div>
+                            <input type="file" id="extract-image-input" accept="image/*" hidden>
+                        </div>
+                    </div>
+
+                    <div class="options-section">
+                        <h3>Decryption Options</h3>
+                        <div class="option-group">
+                            <label for="extract-password">Password (if protected)</label>
+                            <input 
+                                type="password" 
+                                id="extract-password" 
+                                placeholder="Enter password to decrypt data"
+                            >
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary" id="extract-btn" disabled>
+                        <span class="btn-icon">🔓</span>
+                        Extract Hidden Data
+                    </button>
+                </div>
+
+                <div class="result-section" id="extract-result" style="display: none;">
+                    <h3>Extracted Data</h3>
+                    <div class="result-container">
+                        <div class="result-header">
+                            <span class="result-type" id="result-type"></span>
+                            <span class="result-size" id="result-size"></span>
+                        </div>
+                        <div class="result-content" id="result-content"></div>
+                        <div class="result-actions" id="result-actions"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-bar" id="progress-bar" style="display: none;">
+            <div class="progress-fill" id="progress-fill"></div>
+            <div class="progress-text" id="progress-text">Processing...</div>
+        </div>
+
+        <div class="notification" id="notification"></div>
+    </div>
+
+    <script src="steganography.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
