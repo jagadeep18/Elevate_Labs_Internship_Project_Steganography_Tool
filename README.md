@@ -113,7 +113,7 @@ Elevate_Labs_Internship_Project_Steganography_Tool/
 ### Data Extracted from the File
 ![Screenshot 3](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Method%201%20Screenshot%203.png)
 
-
+---
 ### Web Version
 ### Hide Data Phase
 ![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_1.png?raw=true)
