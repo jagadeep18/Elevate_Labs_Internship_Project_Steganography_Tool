@@ -103,10 +103,21 @@ Elevate_Labs_Internship_Project_Steganography_Tool/
 ---
 
 ## 📸 Screenshots
-### Web Version
-### Main Window
-![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_1.png?raw=true)
 
+
+### Python Version
+### Main Window
+![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Method%201%20Screenshot%201.png)
+### Data Modified and Embedded
+![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Method%201%20Screenshot%202.png)
+### Data Extracted from the File
+![Screenshot 3](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Method%201%20Screenshot%203.png)
+
+
+### Web Version
+### Hide Data Phase
+![Screenshot 1](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_1.png?raw=true)
+### Extract Data Phase
 ![Screenshot 2](https://github.com/jagadeep18/Elevate_Labs_Internship_Project_Steganography_Tool/blob/main/Screenshot_2.png?raw=true)
 
 ---
